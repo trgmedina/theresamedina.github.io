@@ -1,6 +1,4 @@
 body {
-    background-image: url('../img/bg-banner03.jpg') no-repeat fixed;
-    background-size: cover;
 	line-height: 1.4;
 	font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -37,7 +35,7 @@ Responsive media queries
 ************************************
 ***********************************/
 .header {
-    background-size: cover;
+    background-image: url('../img/banner.JPG') no-repeat fixed;
     min-height: 630px;
     position: relative;
 }
