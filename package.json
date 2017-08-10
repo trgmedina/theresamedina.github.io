@@ -1,0 +1,30 @@
+{
+  "name": "theresa-medina",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.10.11",
+    "npm": "1.2.25"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trgmedina/trm.git"
+  },
+  "author": "Theresa R Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trgmedina/trm/issues"
+  },
+  "homepage": "https://github.com/trgmedina/trm#readme"
+}
