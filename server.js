@@ -14,10 +14,10 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 // Static directory
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "/public")));
 
 app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.sendFile(path.resolve(__dirname, "index.html"));
 });
 
 app.listen(PORT, function() {
