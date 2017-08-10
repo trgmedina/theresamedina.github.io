@@ -1,6 +1,4 @@
 body {
-    background-image: url('../img/banner.JPG') no-repeat fixed;
-    background-size: cover;
 	line-height: 1.4;
 	font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -37,6 +35,7 @@ Responsive media queries
 ************************************
 ***********************************/
 .header {
+    background: url("http://i.imgur.com/iMILYtG.jpg") no-repeat fixed;
     background-size: cover;
     min-height: 630px;
     position: relative;
