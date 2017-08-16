@@ -47,8 +47,8 @@ Responsive media queries
     transition: all 0.3s;
 }
 .navbar-brand {
-    font-size: 36px;
-    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+    font-family: 'Rancho', cursive;
 }
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #fff;
@@ -87,12 +87,13 @@ Responsive media queries
 	margin-top: 170px;
 }
 .banner-text h2, .banner-text p{
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: 400;
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Gudea', sans-serif;
 }
 .banner-text h2 span{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Rancho', cursive;
+    font-size: 60px;
 }
 .overlay-detail{
 	margin: 0 auto;
@@ -110,7 +111,7 @@ Responsive media queries
 	border-radius: 50%;
 }
 .deco{
-	font-family: 'Satisfy', cursive;
+	font-family: 'Rancho', cursive;
 
 }
 #about{
@@ -141,7 +142,7 @@ Responsive media queries
 .glyphicons {
     font-size: 100px;
     color: #fff;
-    padding: 40px;
+    padding: 30px;
 }
 #portfolio{
 	background-color: #f0f1e9;
@@ -325,7 +326,7 @@ footer {
 
 /***********************************
 ************************************
-Responsive media queries
+Responsive media queriea
 ************************************
 ***********************************/
 @media (min-width: 551px) and (max-width: 980px){
