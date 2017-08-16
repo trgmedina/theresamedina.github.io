@@ -43,8 +43,8 @@ if(isset($_POST['email'])) {
     $error_message .= 'The Name you entered does not appear to be valid.<br />';
   }
  
-  if(strlen($comments) < 2) {
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
+  if(strlen($message) < 1) {
+    $error_message .= 'The Message you entered do not appear to be valid.<br />';
   }
  
   if(strlen($error_message) > 0) {
